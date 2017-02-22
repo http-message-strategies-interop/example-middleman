@@ -33,7 +33,7 @@
     },
     "require": {
         "mindplay/middleman": "^2.0",
-        "http-message-strategies-interop/http-message-strategies": "^0.1",
+        "http-message-strategies-interop/http-message-strategies": "^0.2",
         "zendframework/zend-diactoros": "^1.3"
     },
     "require-dev": {

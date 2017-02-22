@@ -2,7 +2,7 @@
 
 namespace Interop\Http\Message\Strategies\Examples\Middleman;
 
-use Interop\Http\Message\Strategies\ServerRequestResponseInterface;
+use Interop\Http\Message\Strategies\ServerRequestHandlerInterface;
 use Zend\Diactoros\ServerRequest;
 use Zend\Diactoros\Response;
 use mindplay\middleman\Dispatcher;
@@ -19,9 +19,9 @@ class MiddlemanMiddlewareTest extends \PHPUnit\Framework\TestCase
         ]);
     }
 
-    public function testMiddlemanMiddlewareShouldImplementsServerRequestResponseInterface()
+    public function testMiddlemanMiddlewareShouldImplementsServerRequestHandlerInterface()
     {
-        $this->assertInstanceOf(ServerRequestResponseInterface::class, new MiddlemanMiddleware());
+        $this->assertInstanceOf(ServerRequestHandlerInterface::class, new MiddlemanMiddleware());
     }
 
     public function testMiddlemanMiddlewareShouldSayHello()

@@ -2,12 +2,12 @@
 
 namespace Interop\Http\Message\Strategies\Examples\Middleman;
 
-use Interop\Http\Message\Strategies\ServerRequestResponseInterface;
+use Interop\Http\Message\Strategies\ServerRequestHandlerInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response;
 
-class MiddlemanMiddleware implements ServerRequestResponseInterface
+class MiddlemanMiddleware implements ServerRequestHandlerInterface
 {
     /**
      * Process a server request and return the produced response.
