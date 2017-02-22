@@ -37,7 +37,7 @@
         "schnittstabil/phpunit-starter": "^6.0"
     },
     "scripts": {
-        "clean": "rm -rf build/ src/* .php_cs.cache",
+        "clean": "rm -rf build/ .php_cs.cache",
         "lint": [
             "sugared-rim-cs"
         ],
