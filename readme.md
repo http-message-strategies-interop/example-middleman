@@ -1,4 +1,4 @@
-# Middleman Example of HTTP Message Strategies PSR (pre-Draft) [![Build Status](https://travis-ci.org/http-message-strategies-interop/example-middleman.svg?branch=master)](https://travis-ci.org/http-message-strategies-interop/example-middleman)
+# Middleman Example of HTTP Message Strategies PSR (pre-Draft) [![Build Status](https://travis-ci.org/http-message-strategies-interop/example-middleman.svg?branch=master)](https://travis-ci.org/http-message-strategies-interop/example-middleman) [![Coverage Status](https://coveralls.io/repos/github/http-message-strategies-interop/example-middleman/badge.svg?branch=master)](https://coveralls.io/github/http-message-strategies-interop/example-middleman?branch=master)
 
 ## Related
 
