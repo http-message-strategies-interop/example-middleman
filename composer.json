@@ -28,6 +28,9 @@
             "Interop\\Http\\Message\\Strategies\\Examples\\Middleman\\": "tests"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "require": {
         "mindplay/middleman": "^2.0",
         "http-message-strategies-interop/http-message-strategies": "^0.1",
