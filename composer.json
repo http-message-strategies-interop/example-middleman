@@ -32,8 +32,8 @@
         "sort-packages": true
     },
     "require": {
-        "http-interop/http-factory": "^0.2.0",
-        "http-message-strategies-interop/http-message-strategies": "^0.2",
+        "http-interop/http-factory": "^0.3",
+        "http-message-strategies-interop/http-message-strategies": "^0.3",
         "mindplay/middleman": "^2.0",
         "zendframework/zend-diactoros": "^1.3"
     },

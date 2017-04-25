@@ -3,7 +3,7 @@
 namespace Interop\Http\Message\Strategies\Examples\Middleman;
 
 use Interop\Http\Message\Strategies\Examples\Middleman\Helpers\ResponseFactory;
-use Interop\Http\Message\Strategies\ServerRequestHandlerInterface;
+use Interop\Http\Message\Strategies\ServerActionInterface;
 use mindplay\middleman\Dispatcher;
 use Zend\Diactoros\ServerRequest;
 
@@ -17,10 +17,10 @@ class MiddlemanMiddlewareTest extends \PHPUnit\Framework\TestCase
         ]);
     }
 
-    public function testMiddlemanMiddlewareShouldImplementsServerRequestHandlerInterface()
+    public function testMiddlemanMiddlewareShouldImplementsServerActionInterface()
     {
         $this->assertInstanceOf(
-            ServerRequestHandlerInterface::class,
+            ServerActionInterface::class,
             new MiddlemanMiddleware(new ResponseFactory())
         );
     }

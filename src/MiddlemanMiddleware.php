@@ -3,11 +3,11 @@
 namespace Interop\Http\Message\Strategies\Examples\Middleman;
 
 use Interop\Http\Factory\ResponseFactoryInterface;
-use Interop\Http\Message\Strategies\ServerRequestHandlerInterface;
+use Interop\Http\Message\Strategies\ServerActionInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class MiddlemanMiddleware implements ServerRequestHandlerInterface
+class MiddlemanMiddleware implements ServerActionInterface
 {
     protected $responseFactory;
 
